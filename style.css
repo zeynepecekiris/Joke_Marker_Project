@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border-radius: 20px;
+    background: lightblue;
+    width: 500px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.AlertContainer{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: lightgreen;
+    padding: 30px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+input{
+    border: none;
+    background: none;
+    font-size: 24px;
+    outline: none;
+}
+
+
+.fa-copy{
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.fa-copy:hover{
+    opacity: 1;
+}
+
+.PassWordButton{
+    font-size: 24px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: green;
+    color: white;
+}
+
+.PassWordButton:hover{
+    background-color: red;
+
+}
+
+.active{
+    right: -300px;
+
+}
